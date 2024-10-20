@@ -2,10 +2,15 @@
     max-width: 1200px; 
     margin: 0 auto;  
     padding: 0 20px;
-}
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 nav a {
     text-align: center;
     text-decoration: none;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1,
@@ -25,8 +30,14 @@ main section {
 }
 body {
     background-color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
-
+h2{
+    margin: 0;
+}
 header {
     background-color: #333;
 }
@@ -38,6 +49,11 @@ nav a:hover {
 .book, .join {
     background-color: #007bff;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: black;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -50,17 +66,34 @@ nav a:hover {
 
 .msg {
     background-color: #fafafa;
+    line-height: 1.5em;
+    padding: 35px;
 }
-
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 footer {
     background-color: #222;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a:hover {
     color: #ffcc00; 
 }
-
+footer.social  img{
+    padding-top: 15px;
+}
 .home-title {
-    color: #333333; 
+    font-family : ' Arial Bold','Open sans ','Arimko',Rock Salt;
+    font-size: 2em;
+    color: #333333;
+    margin-top: 10px;
 }
 
 h4 {
@@ -74,10 +107,13 @@ h4 {
 .msg h2 {
     color: #222222;
 }
-
+nav a{
+    padding: 35px;
+}
 .msg p {
     color: #444444;
     font-size: 1.2em;
+    padding-bottom: 15px;
 }
 
 footer {
@@ -98,8 +134,11 @@ footer a:hover {
 
 .icon {
     width: 80px; 
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+#logo_link { padding-top: 5px;
 }
